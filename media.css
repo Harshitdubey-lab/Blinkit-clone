@@ -1,0 +1,80 @@
+@media only screen and  (min-width: 200px) and (max-width: 575px) {
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        padding: 10px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+
+    }
+    .headeraddress{
+        padding: 10px;
+    }
+    .headeraddress p{
+        font-size: 12px;
+    }
+    .haederaddress h3{
+        font-size: 15px;
+    }
+    .searchbox button{
+        padding: 10px;
+    }
+    .headerbtn{
+        position: fixed;
+        bottom: 0px;
+        margin-right: 0px;
+        justify-content: center;
+      width: 100%;
+      background-color: white ;
+
+    }
+    .bannersection{
+        display: none;
+    }
+
+    .orderbanner{
+       flex-direction: column;
+       padding: 10px;
+    }
+.cateoryitem{
+    flex-basis: 25%;
+}
+.cateoryitem2{
+    flex-basis: 25%;
+}
+
+.productsection{
+    padding: 30px 10px;
+    flex-direction: column;
+}
+.productsection2{
+    padding: 30px 10px;
+}
+.productsection3{
+    padding: 30px 10px;
+}
+.productitem{
+    flex-basis: 49%;
+}
+.footer-mid1{
+    flex-direction: column;
+    padding: 10px;
+}
+
+.FooterLinks__List li{
+    flex-basis: 48%;
+
+}
+.fottermid3{
+    padding: 0px 10px;
+}
+.fottermid2{
+    flex-direction: column;
+    gap: 20px;
+}
+}
