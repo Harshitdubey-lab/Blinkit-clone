@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;    
+    text-decoration: none;
+}
+
+/*header*/
+header {
+display: flex;
+gap: 40px;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+align-items: center;
+
+
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right: 1px solid #ccc;
+}
+.headeraddress{
+    padding: 20px 30px;
+
+}
+.headeraddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+.headeraddress p{
+    font-size: 14px;
+}
+
+.searchbox{
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    display:flex ;
+    border: 1px solid #f4f4f4;
+
+}
+
+.searchbox button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.searchbox input{
+    flex-grow: 1;
+    border: none;
+    
+    background-color: transparent;
+}
+.searchbox input:focus{
+    outline: none;
+}
+.headerbtn{
+    display: flex;
+    margin-right: 40px;
+    gap: 40px;
+
+}
+.headerbtn button{
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+.headerbtn button:last-child{
+    background-color: rgb(19, 212, 51);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.bannersection{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.bannersection img{
+    width: 100%;
+
+}
+.orderbanner{
+    display: flex;
+    max-width: 1280;
+    margin:  auto;
+}
+.orderbanneritem{
+    flex-basis: 28%;
+    margin: 1%;
+
+}
+.orderbanneritem img{
+    width: 100%;
+
+}
+
+.cateorysection{
+    max-width: 1280px;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.cateoryitem{
+    flex-basis: 10%;
+
+}
+.cateoryitem img{
+width: 100%;
+}
+.cateoryitem2{
+    flex-basis: 10%;
+
+}
+.cateoryitem2 img{
+width: 100%;
+}
+.headingrow{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headingrow h2 {
+    font-size: 22px;
+
+}
+.headingrow a{
+    color: #328839;
+    font-size: 18px;
+
+
+}
+.productrow{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 30px 0px 0px 0px;
+    gap: 2%;
+}
+
+.productitem{
+    flex-basis: 15%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: bottom 20px; ;
+    box-shadow: 0px 0px 10px 2px #fcfcfc ;
+    
+}
+.prouductimg{
+    text-align: center;
+    padding: 15px ;
+    
+
+}
+.prouductimg p{
+    background-color: #f8f8f8;
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    gap: 5px;
+    padding: 2px;
+    align-items: center;
+    text-align: left;
+    font-size: 12px;
+}
+.productcontent{
+    padding: 15px ;
+    padding-top: 0px;
+
+}
+
+.productcontent h3{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.productcontent p{
+    font-size: 14px;
+    color: #848080;
+
+}
+.btn-price-outer{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+.btn-price-outer button{
+    background-color: #f7fff9;
+    padding: 5px 15px;
+    border: 1px solid #328839;
+    border-radius: 10px;
+
+}
+
+footer{
+    padding: 40px 0px 0ox 0px;
+    margin-top: 40px;
+
+}
+
+.footer-mid{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.footer-mid1{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+.footermid-left{
+    flex-basis: 30%;
+
+}
+.footermid-right{
+    flex-basis: 70%;
+
+}
+.footermid-left h3{
+    margin-bottom: 20px;
+}
+
+.quicklink ul li a{
+   font-size: 14px;
+   margin-bottom: 10px;
+   display: block;
+   color: rgb(102, 102, 102);
+}
+footermid-right{
+    flex-basis: 70%;
+}
+.quicklink{
+    display: flex;
+}
+.quicklink ul{
+    flex-basis: 33%;
+    list-style: none;
+}
+.categoriesheading{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.FooterLinks__List{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    margin-top:40px ;
+
+}
+.FooterLinks__List li{
+    flex-basis: 30%;
+}
+.FooterLinks__List li a{
+    font-size: 14px;
+   margin-bottom: 7px;
+   display: block;
+   color: rgb(102, 102, 102);
+
+}
+.fottermid3 p{
+    color: rgb(102, 102, 102);
+    padding: 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.fottermid2{
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.fottermid2 p{
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 14px;
+}
+.appicon{
+    flex-basis:30% ;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+
+}
+.slink{
+    display: flex;
+    gap: 10px;
+}
+.slink i{
+width: 40px;
+height: 40px;
+background-color: #1f1f1f;
+color: white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
